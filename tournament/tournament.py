@@ -154,6 +154,7 @@ def test():
         t = True if k == 1 else False
         print t
 
+
 def sampleTournament():
 
     pairings = swissPairings()
@@ -172,8 +173,4 @@ def sampleTournament():
         print 'Standings ' + str(playerStandings())    
         pairings = swissPairings()
         round = round + 1
-      
 
-#test()
-sampleTournament()
-#print swissPairings()
