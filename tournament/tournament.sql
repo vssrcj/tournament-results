@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS people CASCADE;
 CREATE TABLE people
 ( 
     id serial primary key,
-    name text not nulls
+    name text not null
 );
 
 CREATE TABLE results
