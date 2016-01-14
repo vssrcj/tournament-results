@@ -2,7 +2,7 @@
 
 *By [CJ](https://github.com/vssrcj)*
 
-This project utilizes [Python](www.python.org) and [PostgreSQL](www.postgresql.org) to make a simple tournament system.
+This project utilizes [Python](http://www.python.org) and [PostgreSQL](http://www.postgresql.org) to make a simple tournament system.
 
 ## What's included
 
@@ -30,7 +30,7 @@ Python and PostgreSQL is needed.  A vagrant file is included that satisfies thes
 ### Install Vagrant
 
 Virtualbox (or another supported provider) is needed to run vagrant.
-A guid is found [here](www.udacity.com/wiki/ud197/install-vagrant) to install both virtualbox and vagrant.
+A guid is found [here](https://www.udacity.com/wiki/ud197/install-vagrant) to install both virtualbox and vagrant.
 
 ### Launch Vagrant
 
@@ -54,7 +54,6 @@ Description
 
 ### To test the tournament
 
-Run
 ```
 python tournament_test.py
 ```
@@ -62,10 +61,10 @@ This will test the functionality of the of tournament.py and tournament.sql.
 
 ### Tournament functionality
 
-* The method *swissPairings* will return a list of the next round of matchups
-* There are no rematches
+* The method *swissPairings* will return a list of the next round of matchups.
+* There are no rematches.
 * There needn't be an even amount of players.  If so, a single player will receive
-  a bye each round, that counts as a win (but not a match played)
-* Draws are possible, it just needs to be added to the optional parameter in *reportMatch*
+  a bye each round that counts as a win (but not a match played).
+* Draws are possible, it just needs to be added to the optional parameter in *reportMatch*.
 * Players are ranked according to wins, then opponent match wins
-* A single tournament is supported per turn
+* A single tournament is supported per turn.

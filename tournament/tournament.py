@@ -81,6 +81,8 @@ def reportMatch(winner, loser, draw=False):
     Args:
       winner:  the id number of the player who won
       loser:  the id number of the player who lost
+      draw: optional. If true, then who is the loser, and who is the 
+            winner doesn't matter
     """
     connection = connect()
     cursor = connection.cursor()
