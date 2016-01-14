@@ -152,7 +152,8 @@ def swissPairings():
         bye_player = byePlayer(paired_players)
         if bye_player is None:
             return []
-        else: pairings.extend([bye_player, bye_player])
+        else: 
+            pairings.append(bye_player+bye_player)
 
     return pairings
 
@@ -166,7 +167,7 @@ def swissPairings():
 #        print 'Round ' + str(current_round)
 #        print 'Pairings ' + str(pairings)
 #        for pair in pairings:
-#            if pair[0] == pair[1]:
+#            if pair[0] == pair[2]:
 #                reportMatch(pair[0], pair[0])
 #            else:
 #                first_win = True if random.getrandbits(1) == 1 else False
