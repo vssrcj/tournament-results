@@ -1,4 +1,4 @@
-# Project 2
+# Tournament Results
 
 *By [CJ](https://github.com/vssrcj)*
 
